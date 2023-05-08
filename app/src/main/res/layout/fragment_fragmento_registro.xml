@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FragmentoRegistro">
+
+
+    <TextView
+        android:id="@+id/tNombreMascota"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="58dp"
+        android:text="Nombre Mascota"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tGenero"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Género"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tNombreMascota" />
+
+    <TextView
+        android:id="@+id/tNombreDuenho"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Nombre Dueño"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tGenero" />
+
+    <TextView
+        android:id="@+id/tDNI"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="DNI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tNombreDuenho" />
+
+    <TextView
+        android:id="@+id/tDescripcion"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Descripción"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tDNI" />
+
+    <EditText
+        android:id="@+id/editNombreMas"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tNombreMascota"
+        app:layout_constraintTop_toTopOf="@+id/tNombreMascota" />
+
+    <EditText
+        android:id="@+id/editNombreDue"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tNombreDuenho"
+        app:layout_constraintTop_toTopOf="@+id/tNombreDuenho" />
+
+    <EditText
+        android:id="@+id/editDNI"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tDNI"
+        app:layout_constraintTop_toTopOf="@+id/tDNI" />
+
+    <EditText
+        android:id="@+id/editDescrip"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tDescripcion"
+        app:layout_constraintTop_toTopOf="@+id/tDescripcion" />
+
+    <Button
+        android:id="@+id/bRegistrar"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tDescripcion" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/tGenero"
+        app:layout_constraintTop_toTopOf="@+id/tGenero" />
+</androidx.constraintlayout.widget.ConstraintLayout>

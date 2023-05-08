@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43482500569",
+    "project_id": "lab3-fe8a5",
+    "storage_bucket": "lab3-fe8a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43482500569:android:a445d5c5c6e8a6be661dc8",
+        "android_client_info": {
+          "package_name": "com.example.ambulanciasmascotin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43482500569-3i01ermvnb34uerrr8qqdsgbrjc2trf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_6_adpoUgZEu-ZyStaY_Wt6fT6rExDnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43482500569-3i01ermvnb34uerrr8qqdsgbrjc2trf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
